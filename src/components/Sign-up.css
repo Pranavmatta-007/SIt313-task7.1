@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color and some basic styles to the container */
+  .Sign-container {
+    background-color: #f0f0f0;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  /* Style the Sign up link */
+  .Sign-container a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+    font-size: 2.2vw;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+  
+  /* Style the button */
+  .button-container button {
+    width: 20%; /* Match the width of the input tags above */
+    padding: 10px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  
+  /* Add hover effect to the button */
+  .button-container button:hover {
+    background-color: #0055aa;
+  }
+
+
+  .containnner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add some spacing between each container */
+  }
+  
+  /* Style the text and input */
+  .texts {
+    width: 120px; /* Set a fixed width for the labels */
+    text-align: right; /* Right-align the labels */
+    padding-right: 10px; /* Add some spacing between the label and input */
+    font-weight: bold;
+  }
+  
+  input{
+    /* flex: 1; Allow the input to take up remaining space */
+    width: 90vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  h1{
+    text-align: center;
+    margin: 10px;
+  }

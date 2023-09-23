@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color and some basic styles to the container */
+  .Sign-container {
+    background-color: #f0f0f0;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  /* Style the Sign up link */
+  .Sign-container a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+    font-size: 2.2vw;
+  }
+  
+  /* Style the main container */
+  .container {
+    margin: 20px auto;
+    width: 300px;
+    text-align: left;
+  }
+  
+  /* Style the text within the container */
+  .container .text {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the input fields */
+  .container input[type="email"],
+  .container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  /* Style the login button */
+  .button-container {
+    text-align: center;
+  }
+  
+  /* Style the button */
+  .button-container button {
+    width: 20%; /* Match the width of the input tags above */
+    padding: 10px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  
+  /* Add hover effect to the button */
+  .button-container button:hover {
+    background-color: #0055aa;
+  }

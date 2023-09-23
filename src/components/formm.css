@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Nav{
+    background-color: #e4dbdb;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.Nav input{
+    width: 62vw;
+    height: 3.2vh;
+    border-radius: 10px;
+}
+
+.Nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    cursor: pointer;
+}
